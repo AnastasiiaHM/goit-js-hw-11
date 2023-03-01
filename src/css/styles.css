@@ -17,4 +17,37 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.submit {
+  background-color: #c1fad9;
+  border-radius: 10px;
+}
+.header {
+  background-color: #1d9136;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.photo-card {
+  width: 180px;
+  text-align: center;
+  border: 1px solid #212121;
+}
+.photo {
+  display: block;
+  max-width: 160px;
+  max-height: 140px;
+}
+.info-item {
+  color: #212121;
 }
